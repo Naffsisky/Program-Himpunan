@@ -26,7 +26,7 @@ main(){
     kh.selamat();
 
     cout<<"IRISAN DAN GABUNGAN 2 HIMPUNAN"<<endl<<endl;
-    cout<<"1. IRISAN"<<endl;
+    cout<<"1. IRISAN HIMPUNAN"<<endl;
     cout<<"2. GABUNGAN HIMPUNAN"<<endl<<endl;
 
     cout<<"Masukan pilihan anda : "; cin>>kh.pil;
@@ -59,7 +59,7 @@ main(){
 
 
 void gull::kembali(){
-    // Membuat pilihan dan pengulangan untuk membpermudah dan meringkas kodingan
+    // Membuat pilihan dan pengulangan untuk mempermudah dan meringkas kodingan
     cout<<"\nApakah Anda ingin menghitung lagi ? (Y/N) "; cin>>y;
     if(y=='Y' || y=='y'){
         main();
@@ -136,7 +136,7 @@ void gull::gabungan(){
         cin>>BA;
         i=0;
         while(i<BA){
-            cout<<"Masukkan angka anggota" << i+1 << " : ";
+            cout<<"Masukkan angka anggota " << i+1 << " : ";
             cin>>a[i];
             i++;
         }
@@ -145,7 +145,7 @@ void gull::gabungan(){
         cin>>BB;
         j=0;
         while(j<BB){
-            cout<<"Masukkan angka anggota" << j+1 << " : ";
+            cout<<"Masukkan angka anggota " << j+1 << " : ";
             cin>>b[j];
             j++;
         }
